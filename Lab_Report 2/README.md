@@ -7,7 +7,7 @@ This repository contains the completed project for **Lab 2: SQLite Database and 
 
 ## 🔗 Project Links
 
-- 📂 **GitHub Repository:** [https://github.com/giddalururevathi1-tech/Lab_Report_1](https://github.com/giddalururevathi1-tech/Lab_Report_1)
+- 📂 **GitHub Repository:** [https://github.com/Charan-Reddy96/Lab-01/tree/lab-2](https://github.com/Charan-Reddy96/Lab-01/tree/lab-2)
 - 💻 **Localhost Home:** [http://localhost:3000/](http://localhost:3000/)
 - 📚 **Localhost Books Endpoint:** [http://localhost:3000/books](http://localhost:3000/books)
 - 🚀 **Live Deployment URL:** [https://labreport1-pi.vercel.app/](https://labreport1-pi.vercel.app/)
@@ -28,6 +28,7 @@ This repository contains the completed project for **Lab 2: SQLite Database and 
 Lab_Report 2/
 ├── database/
 │   └── library.db         # SQLite database file containing the 'book' table
+├── Screenshots/           # API and CRUD execution screenshots
 ├── app.js                 # Express application, DB initialization, and CRUD routes
 ├── package.json           # Node.js dependencies and script definitions
 ├── package-lock.json      # Locked versions of dependencies
@@ -106,8 +107,8 @@ npm start
 
 | Execution Screenshot | Description |
 | :--- | :--- |
-| ![Screenshot 155](Screenshot%20(155).png) | Server execution and terminal logs |
-| ![Screenshot 156](Screenshot%20(156).png) | Database creation and sample records verification |
-| ![Screenshot 157](Screenshot%20(157).png) | GET /books endpoint execution in browser |
-| ![Screenshot 158](Screenshot%20(158).png) | Single book retrieval and CRUD operations |
-| ![Screenshot 159](Screenshot%20(159).png) | Postman / curl testing with JSON request body |
+| ![GET All Books](Screenshots/get.png) | GET /books endpoint execution |
+| ![GET Book by ID](Screenshots/get%201.png) | Single book retrieval by ID (GET /books/:bookId) |
+| ![POST Add Book](Screenshots/post.png) | Add new book with JSON request body (POST /books) |
+| ![PUT Update Book](Screenshots/put.png) | Update existing book details (PUT /books/:bookId) |
+| ![DELETE Book](Screenshots/delete.png) | Delete book by ID (DELETE /books/:bookId) |
