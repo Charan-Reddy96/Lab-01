@@ -1,9 +1,8 @@
-
 const express = require('express');
 
 const app = express();
 
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 
 // Route 1: Welcome page
 app.get('/', (req, res) => {
@@ -21,7 +20,6 @@ app.get('/about', (req, res) => {
 // Route 3: Current date and time
 app.get('/time', (req, res) => {
     const currentTime = new Date();
-
     res.json({
         dateAndTime: currentTime
     });
@@ -33,8 +31,6 @@ app.use((req, res) => {
 });
 
 // Start server
-const PORT = process.env.PORT || 3000;
-
 app.listen(PORT, '0.0.0.0', () => {
     console.log(`Express server running on port ${PORT}`);
 });
