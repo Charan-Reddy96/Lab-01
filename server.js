@@ -6,7 +6,7 @@ const PORT = process.env.PORT || 3000;
 
 // Route 1: Welcome page
 app.get('/', (req, res) => {
-    res.send('Welcome to my Express Server!');
+    res.send('Backend Devolopment Fundamentals Lab-03 - RESt Api, Query Parameters, Validation and Debugging!');
 });
 
 // Route 2: About information
