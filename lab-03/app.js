@@ -8,6 +8,14 @@ const sqlite3 = require("sqlite3");
 const app = express();
 app.use(express.json());
 
+app.use((req, res, next) => {
+  if (req.url === "/lab-03" || req.url.startsWith("/lab-03/")) {
+    req.url = req.url.slice("/lab-03".length) || "/";
+  }
+
+  next();
+});
+
 const PORT = 3000;
 
 // Database configuration
@@ -182,7 +190,7 @@ const isValidNumber = (value) => {
 
 app.get("/", (req, res) => {
   res.send(
-    "Backend Development Fundamentals Lab 3 - REST API and Query Parameters"
+    "Backend Devolopment Fundamentals Lab-03 - RESt Api, Query Parameters, Validation and Debugging"
   );
 });
 

@@ -1,7 +1,8 @@
+
 {
-  "name": "sqlite-database-and-crud-routes",
+  "name": "backend-development-fundamentals-lab-03",
   "version": "1.0.0",
-  "description": "Backend Development Fundamentals Lab 2 - SQLite Database and CRUD Routes",
+  "description": "Backend Development Fundamentals Lab 3 - REST API, Query Parameters, Validation and Debugging",
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
@@ -11,7 +12,9 @@
     "nodejs",
     "express",
     "sqlite",
-    "crud"
+    "rest-api",
+    "validation",
+    "query-parameters"
   ],
   "author": "",
   "license": "ISC",
