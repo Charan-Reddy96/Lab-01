@@ -182,7 +182,7 @@ const isValidNumber = (value) => {
 
 app.get("/", (req, res) => {
   res.send(
-    "Backend Development Fundamentals Lab-03 - REST API, Query Parameters, Validation and Debugging"
+    "Backend Devolopment Fundamentals Lab-03 - RESt Api, Query Parameters, Validation and Debugging"
   );
 });
 
