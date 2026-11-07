@@ -1,0 +1,33 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "services": {
+    "app": {
+      "root": ".",
+      "framework": "express"
+    },
+    "lab-03": {
+      "root": "lab-03",
+      "framework": "express"
+    }
+  },
+  "rewrites": [
+    {
+      "source": "/lab-03",
+      "destination": {
+        "service": "lab-03"
+      }
+    },
+    {
+      "source": "/lab-03/(.*)",
+      "destination": {
+        "service": "lab-03"
+      }
+    },
+    {
+      "source": "/(.*)",
+      "destination": {
+        "service": "app"
+      }
+    }
+  ]
+}
