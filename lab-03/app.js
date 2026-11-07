@@ -181,9 +181,7 @@ const isValidNumber = (value) => {
 // ================= ROOT ROUTE =================
 
 app.get("/", (req, res) => {
-  res.send(
-    "Backend Development Fundamentals Lab 3 - REST API, Query Parameters, Validation and Debugging"
-  );
+  res.send("Welcome to my Express Server!");
 });
 
 // ================= GET ALL BOOKS =================
