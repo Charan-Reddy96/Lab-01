@@ -5,7 +5,7 @@
       "root": ".",
       "framework": "express"
     },
-    "lab-03": {
+    "lab-three": {
       "root": "lab-03",
       "framework": "express"
     }
@@ -14,13 +14,13 @@
     {
       "source": "/lab-03",
       "destination": {
-        "service": "lab-03"
+        "service": "lab-three"
       }
     },
     {
       "source": "/lab-03/(.*)",
       "destination": {
-        "service": "lab-03"
+        "service": "lab-three"
       }
     },
     {
