@@ -1,7 +1,6 @@
 # Lab 4: Registration, Login and JWT
 
-**Name:** Charan Reddy  
-**Registration Number:** [Enter your registration number]  
+**Name:** Charan Reddy   
 **Section:** [AIML-2B]
 
 ## Live Link
