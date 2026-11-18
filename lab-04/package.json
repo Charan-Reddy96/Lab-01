@@ -1,0 +1,31 @@
+
+{
+  "name": "lab-04-registration-login-jwt",
+  "version": "1.0.0",
+  "description": "Backend Development Fundamentals - User Registration, Login and JWT Authentication",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "authentication",
+    "jwt",
+    "bcrypt",
+    "sqlite"
+  ],
+  "author": "Charan Reddy",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
