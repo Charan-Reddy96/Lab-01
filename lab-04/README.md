@@ -52,7 +52,7 @@ To implement user registration and login using Express.js, SQLite, bcrypt passwo
 
 ### 1. Successful Registration
 
-![alt text](<Screenshot 2026-11-18 193057.png>)
+![alt text](<Screenshot 2026-11-18 193012-1.png>)
 ### 2. Duplicate Username Rejected
 
 ![alt text](<Screenshot 2026-11-18 193057-3.png>)
@@ -72,7 +72,7 @@ To implement user registration and login using Express.js, SQLite, bcrypt passwo
 
 ### 6. JWT Decoded
 
-![alt text](<Screenshot 2026-11-18 193057-1.png>)
+![alt text](<Screenshot 2026-11-18 193525-1.png>)
 
 ## Implementation Notes
 
