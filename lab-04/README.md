@@ -2,11 +2,11 @@
 
 **Name:** Charan Reddy  
 **Registration Number:** [Enter your registration number]  
-**Section:** [Enter your section]
+**Section:** [AIML-2B]
 
 ## Live Link
 
-[Add your deployed Render URL here after successful deployment]
+https://lab-01-2.onrender.com
 
 ## Objective
 
